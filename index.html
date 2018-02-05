@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title>List-User-Repositories-Github</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/Fetch_Repositories.js"></script>
+</head>
+<body>
+  <div class="header">
+    GitHub User Repositories
+      <input type="text" placeholder="Enter the Git Username" id="gitUserName" size=30>
+      <input type="button" value="Submit" onclick="fetch_Repo()" >
+  </div>
+  <div class="container">
+      <textarea rows="10" cols="80" id="result"></textarea>
+  </div>
+</body>
+<html>

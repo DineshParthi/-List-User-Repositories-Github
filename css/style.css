@@ -1,0 +1,29 @@
+body {
+     background-image: url(img/git-hub.png);
+     background-position: top 0px ;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.header{
+    color: white;
+    font-size: 46px;
+    font-family: "Georgia";
+}
+
+.container{
+  margin-left: 1%;
+  margin-top: 1%;
+  color: white;
+  width: 300px;
+
+}
+
+#gitUserName{
+  margin-left: 35%;
+  height: 25px;
+}
+
+#result{
+  display:none;
+}
